@@ -18,6 +18,7 @@
 @property(weak, nonatomic) NSObject <AZJCAutocompletingSearchBarDelegate> *delegate;
 @property(weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @property(weak, nonatomic) IBOutlet UITableView *resultsTableView;
+@property (weak, nonatomic) IBOutlet UIToolbar *toolBar;
 
 - (IBAction)handleSubmitButton:(id)sender;
 

@@ -14,7 +14,8 @@
 
 + (instancetype)viewController {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"AZAutCompletingViewController" bundle:nil];
-    return [storyboard instantiateInitialViewController];
+    AZAutCompletingViewController *controller = [storyboard instantiateInitialViewController];
+    return controller;
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -38,3 +39,4 @@
 }
 
 @end
+
