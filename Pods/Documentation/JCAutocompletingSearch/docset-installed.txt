@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/azu/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.JCAutocompletingSearch-0.9.6.docset
+Time: 2013-02-18 01:41:20 +0000

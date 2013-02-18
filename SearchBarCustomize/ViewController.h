@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AZJCAutocompletingSearchBarDelegate.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AZJCAutocompletingSearchBarDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
+@property(nonatomic, copy) NSString *inputText;
+
+- (void)updateOutlets;
 @end

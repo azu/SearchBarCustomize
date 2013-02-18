@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JCAutocompletingSearchViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JCAutocompletingSearchViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewController.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JCAutocompletingSearchViewController/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) NSObject&lt;JCAutocompletingSearchViewControllerDelegate&gt; *delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JCAutocompletingSearchViewController/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) NSObject&lt;JCAutocompletingSearchViewControllerDelegate&gt; *delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JCAutocompletingSearchViewController/setSearchBar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISearchBar *searchBar</Declaration>
+			
+			
+			<Anchor>//api/name/searchBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JCAutocompletingSearchViewController/searchBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISearchBar *searchBar</Declaration>
+			
+			
+			<Anchor>//api/name/searchBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JCAutocompletingSearchViewController/setResultsTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *resultsTableView</Declaration>
+			
+			
+			<Anchor>//api/name/resultsTableView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JCAutocompletingSearchViewController/resultsTableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *resultsTableView</Declaration>
+			
+			
+			<Anchor>//api/name/resultsTableView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JCAutocompletingSearchViewController/autocompletingSearchViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewController.h</DeclaredIn>			
+			
+			<Declaration>+ (JCAutocompletingSearchViewController *)autocompletingSearchViewController</Declaration>
+			
+			
+			<Anchor>//api/name/autocompletingSearchViewController</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JCAutocompletingSearchViewController/resetSelection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewController.h</DeclaredIn>			
+			
+			<Declaration>- (void)resetSelection</Declaration>
+			
+			
+			<Anchor>//api/name/resetSelection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JCAutocompletingSearchViewController/setSearchBarTextAndPerformSearch:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewController.h</DeclaredIn>			
+			
+			<Declaration>- (void)setSearchBarTextAndPerformSearch:(NSString *)query</Declaration>
+			
+			
+			<Anchor>//api/name/setSearchBarTextAndPerformSearch:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JCAutocompletingSearchViewController/resultForRowAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewController.h</DeclaredIn>			
+			
+			<Declaration>- (NSDictionary *)resultForRowAtIndex:(NSUInteger)resultIndex</Declaration>
+			
+			
+			<Anchor>//api/name/resultForRowAtIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

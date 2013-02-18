@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/JCAutocompletingSearchViewControllerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/JCAutocompletingSearchViewControllerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchController:performSearchForQuery:withResultsHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)searchController:(JCAutocompletingSearchViewController *)searchController performSearchForQuery:(NSString *)query withResultsHandler:(JCAutocompletingSearchResultsHandler)resultsHandler</Declaration>
+			
+			
+			<Anchor>//api/name/searchController:performSearchForQuery:withResultsHandler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchControllerCanceled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)searchControllerCanceled:(JCAutocompletingSearchViewController *)searchController</Declaration>
+			
+			
+			<Anchor>//api/name/searchControllerCanceled:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchController:tableView:selectedResult:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)searchController:(JCAutocompletingSearchViewController *)searchController tableView:(UITableView *)tableView selectedResult:(id)result</Declaration>
+			
+			
+			<Anchor>//api/name/searchController:tableView:selectedResult:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchControllerShouldPerformBlankSearchOnLoad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)searchControllerShouldPerformBlankSearchOnLoad:(JCAutocompletingSearchViewController *)searchController</Declaration>
+			
+			
+			<Anchor>//api/name/searchControllerShouldPerformBlankSearchOnLoad:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchControllerSearchesPerformedSynchronously:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)searchControllerSearchesPerformedSynchronously:(JCAutocompletingSearchViewController *)searchController</Declaration>
+			
+			
+			<Anchor>//api/name/searchControllerSearchesPerformedSynchronously:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchControllerUsesCustomResultTableViewCells:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)searchControllerUsesCustomResultTableViewCells:(JCAutocompletingSearchViewController *)searchController</Declaration>
+			
+			
+			<Anchor>//api/name/searchControllerUsesCustomResultTableViewCells:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchController:tableView:cellForRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (UITableViewCell *)searchController:(JCAutocompletingSearchViewController *)searchController tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/searchController:tableView:cellForRowAtIndexPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchController:tableView:heightForRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (CGFloat)searchController:(JCAutocompletingSearchViewController *)searchController tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/searchController:tableView:heightForRowAtIndexPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchController:shouldAutorotateToInterfaceOrientation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)searchController:(JCAutocompletingSearchViewController *)searchController shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/searchController:shouldAutorotateToInterfaceOrientation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchControllerDelaySearchingUntilQueryUnchangedForTimeOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (dispatch_time_t)searchControllerDelaySearchingUntilQueryUnchangedForTimeOffset:(JCAutocompletingSearchViewController *)searchController</Declaration>
+			
+			
+			<Anchor>//api/name/searchControllerDelaySearchingUntilQueryUnchangedForTimeOffset:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchControllerShouldDisplayNetworkActivityIndicator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)searchControllerShouldDisplayNetworkActivityIndicator:(JCAutocompletingSearchViewController *)searchController</Declaration>
+			
+			
+			<Anchor>//api/name/searchControllerShouldDisplayNetworkActivityIndicator:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JCAutocompletingSearchViewControllerDelegate/searchController:didChangeActivityInProgressToEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JCAutocompletingSearchViewControllerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)searchController:(JCAutocompletingSearchViewController *)searchController didChangeActivityInProgressToEnabled:(BOOL)activityInProgress</Declaration>
+			
+			
+			<Anchor>//api/name/searchController:didChangeActivityInProgressToEnabled:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B5C2D4D8CB8A1FEE3C5E02 /* AZAutCompletingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C685D33DCA645FD5DAE8 /* AZAutCompletingViewController.storyboard */; };
+		17B5C6327B4BCF4919701B2A /* AZAutoCompletingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C9688A17CC2195DBD746 /* AZAutoCompletingList.m */; };
+		17B5C8C6BA912EEC21DB2AEE /* AZAutoCompleting_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CC7C65DA01773D857F38 /* AZAutoCompleting_list.txt */; };
+		17B5C9117011A875B604B504 /* AZCustomSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C998A8C58E4212F5A241 /* AZCustomSearchBar.m */; };
+		17B5CC8B16A86348699FF8DC /* AZAutCompletingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CAFAD6D68BCB3965A4D0 /* AZAutCompletingViewController.m */; };
 		7313B0B916D1BDA500ED6A24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7313B0B816D1BDA500ED6A24 /* UIKit.framework */; };
 		7313B0BB16D1BDA500ED6A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7313B0BA16D1BDA500ED6A24 /* Foundation.framework */; };
 		7313B0BD16D1BDA500ED6A24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7313B0BC16D1BDA500ED6A24 /* CoreGraphics.framework */; };
@@ -17,11 +22,21 @@
 		7313B0CD16D1BDA500ED6A24 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7313B0CC16D1BDA500ED6A24 /* Default@2x.png */; };
 		7313B0CF16D1BDA500ED6A24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7313B0CE16D1BDA500ED6A24 /* Default-568h@2x.png */; };
 		7313B0D216D1BDA500ED6A24 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7313B0D016D1BDA500ED6A24 /* MainStoryboard_iPhone.storyboard */; };
-		7313B0D516D1BDA500ED6A24 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7313B0D316D1BDA500ED6A24 /* MainStoryboard_iPad.storyboard */; };
 		7313B0D816D1BDA500ED6A24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7313B0D716D1BDA500ED6A24 /* ViewController.m */; };
+		B4342B22AB2F4B3199E700CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1861C1033CC64DC58D2B7175 /* libPods.a */; settings = {}; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17B5C39DB657BC16F2328BA2 /* AZAutoCompletingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZAutoCompletingList.h; sourceTree = "<group>"; };
+		17B5C685D33DCA645FD5DAE8 /* AZAutCompletingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AZAutCompletingViewController.storyboard; sourceTree = "<group>"; };
+		17B5C7B0F5164987F18C8D53 /* AZCustomSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZCustomSearchBar.h; sourceTree = "<group>"; };
+		17B5C9688A17CC2195DBD746 /* AZAutoCompletingList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZAutoCompletingList.m; sourceTree = "<group>"; };
+		17B5C998A8C58E4212F5A241 /* AZCustomSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZCustomSearchBar.m; sourceTree = "<group>"; };
+		17B5CAFAD6D68BCB3965A4D0 /* AZAutCompletingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZAutCompletingViewController.m; sourceTree = "<group>"; };
+		17B5CB90978F66D58F7B0A85 /* AZJCAutocompletingSearchBarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZJCAutocompletingSearchBarDelegate.h; sourceTree = "<group>"; };
+		17B5CC4A208A5A560C1D02EF /* AZAutCompletingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZAutCompletingViewController.h; sourceTree = "<group>"; };
+		17B5CC7C65DA01773D857F38 /* AZAutoCompleting_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AZAutoCompleting_list.txt; sourceTree = "<group>"; };
+		1861C1033CC64DC58D2B7175 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7313B0B516D1BDA500ED6A24 /* SearchBarCustomize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBarCustomize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7313B0B816D1BDA500ED6A24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7313B0BA16D1BDA500ED6A24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,9 +51,9 @@
 		7313B0CC16D1BDA500ED6A24 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7313B0CE16D1BDA500ED6A24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7313B0D116D1BDA500ED6A24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		7313B0D416D1BDA500ED6A24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		7313B0D616D1BDA500ED6A24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7313B0D716D1BDA500ED6A24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8FEBE4D559841D095310892 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,18 +64,36 @@
 				7313B0B916D1BDA500ED6A24 /* UIKit.framework in Frameworks */,
 				7313B0BB16D1BDA500ED6A24 /* Foundation.framework in Frameworks */,
 				7313B0BD16D1BDA500ED6A24 /* CoreGraphics.framework in Frameworks */,
+				B4342B22AB2F4B3199E700CC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B5C037F5E9AB4F76C0AF6D /* JCAutoCompleting */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CC4A208A5A560C1D02EF /* AZAutCompletingViewController.h */,
+				17B5CAFAD6D68BCB3965A4D0 /* AZAutCompletingViewController.m */,
+				17B5C685D33DCA645FD5DAE8 /* AZAutCompletingViewController.storyboard */,
+				17B5C998A8C58E4212F5A241 /* AZCustomSearchBar.m */,
+				17B5C7B0F5164987F18C8D53 /* AZCustomSearchBar.h */,
+				17B5CB90978F66D58F7B0A85 /* AZJCAutocompletingSearchBarDelegate.h */,
+				17B5C9688A17CC2195DBD746 /* AZAutoCompletingList.m */,
+				17B5C39DB657BC16F2328BA2 /* AZAutoCompletingList.h */,
+				17B5CC7C65DA01773D857F38 /* AZAutoCompleting_list.txt */,
+			);
+			path = JCAutoCompleting;
+			sourceTree = "<group>";
+		};
 		7313B0AC16D1BDA500ED6A24 = {
 			isa = PBXGroup;
 			children = (
 				7313B0BE16D1BDA500ED6A24 /* SearchBarCustomize */,
 				7313B0B716D1BDA500ED6A24 /* Frameworks */,
 				7313B0B616D1BDA500ED6A24 /* Products */,
+				F8FEBE4D559841D095310892 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +111,7 @@
 				7313B0B816D1BDA500ED6A24 /* UIKit.framework */,
 				7313B0BA16D1BDA500ED6A24 /* Foundation.framework */,
 				7313B0BC16D1BDA500ED6A24 /* CoreGraphics.framework */,
+				1861C1033CC64DC58D2B7175 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,10 +122,10 @@
 				7313B0C716D1BDA500ED6A24 /* AppDelegate.h */,
 				7313B0C816D1BDA500ED6A24 /* AppDelegate.m */,
 				7313B0D016D1BDA500ED6A24 /* MainStoryboard_iPhone.storyboard */,
-				7313B0D316D1BDA500ED6A24 /* MainStoryboard_iPad.storyboard */,
 				7313B0D616D1BDA500ED6A24 /* ViewController.h */,
 				7313B0D716D1BDA500ED6A24 /* ViewController.m */,
 				7313B0BF16D1BDA500ED6A24 /* Supporting Files */,
+				17B5C037F5E9AB4F76C0AF6D /* JCAutoCompleting */,
 			);
 			path = SearchBarCustomize;
 			sourceTree = "<group>";
@@ -120,6 +154,7 @@
 				7313B0B116D1BDA500ED6A24 /* Sources */,
 				7313B0B216D1BDA500ED6A24 /* Frameworks */,
 				7313B0B316D1BDA500ED6A24 /* Resources */,
+				A77F7F7C854A4823B1DEA447 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +184,8 @@
 			mainGroup = 7313B0AC16D1BDA500ED6A24;
 			productRefGroup = 7313B0B616D1BDA500ED6A24 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				7313B0B416D1BDA500ED6A24 /* SearchBarCustomize */,
@@ -166,11 +203,30 @@
 				7313B0CD16D1BDA500ED6A24 /* Default@2x.png in Resources */,
 				7313B0CF16D1BDA500ED6A24 /* Default-568h@2x.png in Resources */,
 				7313B0D216D1BDA500ED6A24 /* MainStoryboard_iPhone.storyboard in Resources */,
-				7313B0D516D1BDA500ED6A24 /* MainStoryboard_iPad.storyboard in Resources */,
+				17B5C2D4D8CB8A1FEE3C5E02 /* AZAutCompletingViewController.storyboard in Resources */,
+				17B5C8C6BA912EEC21DB2AEE /* AZAutoCompleting_list.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A77F7F7C854A4823B1DEA447 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7313B0B116D1BDA500ED6A24 /* Sources */ = {
@@ -180,6 +236,9 @@
 				7313B0C516D1BDA500ED6A24 /* main.m in Sources */,
 				7313B0C916D1BDA500ED6A24 /* AppDelegate.m in Sources */,
 				7313B0D816D1BDA500ED6A24 /* ViewController.m in Sources */,
+				17B5CC8B16A86348699FF8DC /* AZAutCompletingViewController.m in Sources */,
+				17B5C9117011A875B604B504 /* AZCustomSearchBar.m in Sources */,
+				17B5C6327B4BCF4919701B2A /* AZAutoCompletingList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,14 +259,6 @@
 				7313B0D116D1BDA500ED6A24 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		7313B0D316D1BDA500ED6A24 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7313B0D416D1BDA500ED6A24 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -273,22 +324,26 @@
 		};
 		7313B0DC16D1BDA500ED6A24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FEBE4D559841D095310892 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SearchBarCustomize/SearchBarCustomize-Prefix.pch";
 				INFOPLIST_FILE = "SearchBarCustomize/SearchBarCustomize-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		7313B0DD16D1BDA500ED6A24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FEBE4D559841D095310892 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SearchBarCustomize/SearchBarCustomize-Prefix.pch";
 				INFOPLIST_FILE = "SearchBarCustomize/SearchBarCustomize-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

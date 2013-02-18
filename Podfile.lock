@@ -1,0 +1,11 @@
+
+PODS:
+- JCAutocompletingSearch (0.9.6)
+
+DEPENDENCIES:
+- JCAutocompletingSearch
+
+SPEC CHECKSUMS:
+  JCAutocompletingSearch: 972fb03cdb537fec06d423d2652833807c142ac8
+
+COCOAPODS: 0.16.2
