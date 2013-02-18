@@ -2,5 +2,7 @@ Customize UI of [jcoleman/JCAutocompletingSearch · GitHub](https://github.com/j
 
 # how to use
 
-> $ pod install
-> $ open SearchBarCustomize.xcworkspace
+```
+$ pod install
+$ open SearchBarCustomize.xcworkspace
+```
