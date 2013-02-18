@@ -27,14 +27,14 @@
 
 + (NSArray *)sharedList {
 
-    static NSArray *medicineNameList = nil;
-    if (medicineNameList == nil) {
+    static NSArray *itemList = nil;
+    if (itemList == nil) {
         NSString *loadedData = [self loadTextData];
         if (loadedData == nil) {
             return nil;
         }
-        medicineNameList = [loadedData componentsSeparatedByString:@"\n"];
+        itemList = [loadedData componentsSeparatedByString:@"\n"];
     }
-    return medicineNameList;
+    return itemList;
 }
 @end
